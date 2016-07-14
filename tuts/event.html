@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Events </title>
+
+</head>
+
+<body>
+<input type="button" value="Click Me!" onClick="if 
+(window.numclicks) numclicks++; else numclicks=1;
+this.value ='Click # '+ numclicks;"/>
+
+<button onClick="document.getElementById('demo').innerHTML= Date()"> The time is</button>
+
+
+<!--Date method gets current time"-->
+<!--innerHTML display element information-->
+
+<p id="demo"> </p>
+<p id="hello"></p>
+<div id="myDiv"></div>
+
+<!--Event Tutorial on prevent Default-->
+ <p>Try to check this checkbox: <input id="myCheckBox" type="checkbox"></p>
+ 
+ <p> Toggling a checkbox is a default action of clicking on a checkbox. The preventDefault() method prevents this from heading</p>
+ <button id="btn"> Try it! </button>
+ 
+ <p id="example"></p>
+
+ <script src="event.js"></script>
+
+</body>
+
+</html>

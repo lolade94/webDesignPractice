@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*,
+*:before,
+*:after{
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	 box-sizing:border-box;
+	 font-family:'Roboto', sans-serif;
+	 color:#fff;
+	 text-align:center;
+}
+
+#movies-list{
+	width:80%;
+	margin:0px auto;
+	display:table;
+}
+/*colors blue #9faae9, red orange #e43c1b*/
+#movies-list ul{
+	padding:0;
+	margin:20px 0;
+	color:#555;	
+}
+#movies-list ul>li{
+	list-style:none;
+	border-top:1px solid #fff;
+	display:block;
+	padding:15px;
+	overflow:hidden;
+	background:#c8102e;
+	
+}
+
+#movies-list ul:last-child{
+	border-bottom:1px solid #fff;
+}
+
+
+#left{
+	width:50%;
+	height:20%;
+	background-color:rgba(200, 16, 46, .7);
+	color:#fff;
+	padding:20px;
+	font-weight:400;
+	margin:0px auto;
+}
+.sup{
+	margin-top;:200px;
+}
+#right{
+	width:50%;
+	float:right;
+	height:100%;
+	padding-left:20px;
+}
+#left,#right{
+    display: table;
+}
+
+.expand{
+	text-decoration:none;
+	color:#555;
+	cursor:pointer;
+	display:block;
+}
+
+h2{
+	padding:0;
+	margin:0;
+    text-align:center;
+	font-weight:400;
+}
+span{
+	font-size:12.5px;
+}
+
+.details a{
+	
+	text-decoration:none;
+	border:1px solid #e43c1b;
+	padding:6px 10px 5px;
+	font-size:13px;
+	margin-right:7px;
+	color:#c0392b;
+}
+.details{
+	margin:10px 0 10px 0;
+	display:none;
+	line-height:22px;
+	height:150px;
+}
+#det{
+	background:url('http://static.parade.com/wp-content/uploads/2014/01/Her-Movie-siri-operating-system-ftr.jpg');
+	background-size:100%;
+	height:500px;
+	}
+	
+	
+.details span{
+	margin:0;
+}
+
+.right-arrow{
+	margin-top:12px;
+	margin-left:20px;
+	width:10px;
+	height:100%;
+	float:right;
+	font-weight:bold;
+	font-size:20px;
+	
+}

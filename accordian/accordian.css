@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:lightblue;
+	font-family: arial;
+}
+
+.accordian{
+	width:805px;
+	height:320px;
+	overflow:hidden;
+	margin:100px auto;
+	
+}
+
+.accordian ul{
+	width:2000px;
+}
+
+.accordian li{
+	position:relative;
+	width:160px;
+	display:block;
+	float:left;
+	border-left:1px solid #fff;
+	
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	
+}
+
+.accordian ul:hover  li{
+	width:40px;
+}
+
+.accordian ul li:hover{
+	width:640px;
+}
+
+.accordian  li  img{
+	display:block;
+}
+
+.image-title{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:640px;
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+	
+}
+
+.image-title  a {
+	text-decoration:none;
+	color:#fff;
+	font-size:16px;
+	padding:20px;
+	
+}
+	

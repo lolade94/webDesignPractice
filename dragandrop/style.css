@@ -1,0 +1,46 @@
+#main{
+	
+	width:800px;
+	margin:200px auto;
+	background:#8EA604;
+	color:#fff;
+	
+}
+
+#box1, #box2{
+	float:left;
+	width:350px;
+	padding:10px;
+	height:300px;
+	margin:10px;
+	font-size:20px;
+	font-family:14px;
+	
+}
+
+#box1{
+	background:#F5BB00;
+}
+
+#box2{
+	background:#EC9F05;
+}
+
+#dragCont{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background:#ff4e00;
+}
+
+#dragCont2{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background:#BF3100;
+}
+
+.dragging {
+  /* not working */
+  cursor: -webkit-grabbing !important;
+}

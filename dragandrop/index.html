@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title> Drag and Drop</title>
+	<link href="style.css" type="text/css" rel="stylesheet"/>
+	<script src="index.js"></script>
+	</head>
+     <body>
+      
+ <div id="main">
+	 <!--first content box-->
+	 <div id="box1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">
+	 
+	 
+		<div id="dragCont" draggable="true" ondragstart="return dragStart(event)">
+		Drag me
+		</div>
+		
+		<div id="dragCont2" draggable="true" ondragstart="return dragStart(event)">
+		Drag Me
+		</div>
+	 
+	 </div>
+	 
+	 <!--second content box-->
+	 <div id="box2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">
+	 
+	 
+	 
+	    </div>
+	 
+	 </div><!--end of content-->
+	 
+	 
+	 
+	 </body>
+
+
+
+</html>

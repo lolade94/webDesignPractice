@@ -1,0 +1,34 @@
+.social {
+	display:block;
+}
+.social a {
+
+
+color:#fff;
+font-size:14px;
+	width:130px;
+	display: inline-block;
+	line-height:2.3;
+	text-align:center;
+	font-weight: 600;
+	letter-spacing: .05em;
+	border-radius: 2px;
+}
+ a>.fa{
+	margin-right:5px;
+	font-size:18px;
+}
+ .facebook{
+
+	background:blue;
+
+	
+}
+.twitter{
+	background:lightblue;
+	
+}
+.pinterest{
+	background:red;
+	
+}
